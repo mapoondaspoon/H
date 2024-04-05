@@ -3,3 +3,5 @@ example.com {
         reverse_proxy * kazwire:3000
         reverse_proxy /bare/* bare-server:8080
 }
+
+
